@@ -1444,10 +1444,9 @@ export default function App() {
         if (settings.contact_address) setContactAddress(settings.contact_address);
         if (settings.contact_phone) setContactPhone(settings.contact_phone);
         if (settings.contact_email) setContactEmail(settings.contact_email);
-        if (settings.social_facebook) setSocialFacebook(settings.social_facebook);
+        if (settings.social_Youtube) setSocialYoutube(settings.social_Youtube);
         if (settings.social_instagram) setSocialInstagram(settings.social_instagram);
-        if (settings.social_twitter) setSocialTwitter(settings.social_twitter);
-        if (settings.social_linkedin) setSocialLinkedin(settings.social_linkedin);
+        if (settings.social_Tiktok) setSocialTiktok(settings.social_twitter);
       }
 
       // If we have local data, we can stop or try to fetch fresh data
@@ -1521,10 +1520,9 @@ export default function App() {
             contact_address: settings.contact_address,
             contact_phone: settings.contact_phone,
             contact_email: settings.contact_email,
-            social_facebook: settings.social_facebook || '#',
+            social_Youtube: settings.social_Youtube || '#',
             social_instagram: settings.social_instagram || '#',
-            social_twitter: settings.social_twitter || '#',
-            social_linkedin: settings.social_linkedin || '#'
+            social_Tiktok: settings.social_Tiktok || '#',
          };
          localStorage.setItem('settings', JSON.stringify(settingsObj));
       }
@@ -1641,10 +1639,9 @@ export default function App() {
         contactAddress={contactAddress}
         contactPhone={contactPhone}
         contactEmail={contactEmail}
-        socialFacebook={socialFacebook}
+        socialYoutube={socialYoutube}
         socialInstagram={socialInstagram}
-        socialTwitter={socialTwitter}
-        socialLinkedin={socialLinkedin}
+        socialTiktok={socialTiktok}
         onLogout={handleLogout} 
         refreshData={fetchData}
         onHome={handleViewHome}
