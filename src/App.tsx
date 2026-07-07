@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
-  Menu, X, MapPin, Phone, Mail, Facebook, Twitter, Instagram, 
-  Linkedin, Share2, User, LogOut, Plus, Trash2, Edit, Upload, Calendar, ArrowUp,
+  Menu, X, MapPin, Phone, Mail, Youtube, Tiktok, Instagram, 
+  Share2, User, LogOut, Plus, Trash2, Edit, Upload, Calendar, ArrowUp,
   ChevronLeft, ChevronRight
 } from 'lucide-react';
 
