@@ -1414,10 +1414,9 @@ export default function App() {
   const [contactAddress, setContactAddress] = useState('Jl. Pendidikan No. 123, Jakarta Selatan, DKI Jakarta 12345');
   const [contactPhone, setContactPhone] = useState('(021) 1234-5678');
   const [contactEmail, setContactEmail] = useState('info@sdharapanbangsa.sch.id');
-  const [socialFacebook, setSocialFacebook] = useState('#');
+  const [socialYoutube, setSocialYoutube] = useState('#');
   const [socialInstagram, setSocialInstagram] = useState('#');
-  const [socialTwitter, setSocialTwitter] = useState('#');
-  const [socialLinkedin, setSocialLinkedin] = useState('#');
+  const [socialTiktok, setSocialTiktok] = useState('#');
   const [view, setView] = useState<'home' | 'admin'>('home');
 
   const fetchData = async () => {
