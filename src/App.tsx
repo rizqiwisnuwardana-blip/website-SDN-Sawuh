@@ -1576,10 +1576,9 @@ export default function App() {
             contact_address: 'Jl. Pendidikan No. 123, Jakarta Selatan, DKI Jakarta 12345',
             contact_phone: '(021) 1234-5678',
             contact_email: 'info@sdharapanbangsa.sch.id',
-            social_facebook: '#',
+            social_Youtube: '#',
             social_instagram: '#',
-            social_twitter: '#',
-            social_linkedin: '#'
+            social_Tiktok: '#',
          };
          localStorage.setItem('settings', JSON.stringify(mockSettings));
       }
