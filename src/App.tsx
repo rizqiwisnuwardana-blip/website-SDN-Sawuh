@@ -1677,10 +1677,9 @@ export default function App() {
         contactAddress={contactAddress}
         contactPhone={contactPhone}
         contactEmail={contactEmail}
-        socialFacebook={socialFacebook}
+        socialYoutube={socialYoutube}
         socialInstagram={socialInstagram}
-        socialTwitter={socialTwitter}
-        socialLinkedin={socialLinkedin}
+        socialTiktok={socialTiktok}
       />
       <ScrollToTop />
 
